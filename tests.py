@@ -13,7 +13,7 @@ class TestCase(unittest.TestCase):
         self.assertTrue(check_pwd(password))
 
     def test3(self):
-        password = "thisistwentycharactr"
+        password = "thisistwentycharac20"
         self.assertTrue(check_pwd(password))
 
 
